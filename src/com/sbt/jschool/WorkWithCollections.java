@@ -106,7 +106,7 @@ public class WorkWithCollections {
     // Task 6
     public void printLine(int n)
     {
-        if (n > stringsList.size())
+        if (n > stringsList.size() || n < 1)
             return;
 
         System.out.println(stringsList.get(n-1));
